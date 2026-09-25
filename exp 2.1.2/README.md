@@ -1,8 +1,7 @@
 #CC-2-exp10 (24BDA70130) 
 ## Problem Statement:39. Combination Sum
 class Solution:
-
- def combinationSum(self, candidates, target):
+def combinationSum(self, candidates, target):
     result = []
     def backtrack(start, current, total):
         if total == target:
