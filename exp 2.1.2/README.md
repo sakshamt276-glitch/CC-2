@@ -1,6 +1,6 @@
-![![# CC-2-exp10 (24BDA70130) 
+#CC-2-exp10 (24BDA70130) 
 ## Problem Statement:39. Combination Sum
-class Solution: 
+class Solution:
 
  def combinationSum(self, candidates, target):
     result = []
